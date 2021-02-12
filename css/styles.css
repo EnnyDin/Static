@@ -9,3 +9,37 @@ h4 {
 body {
  font-size: 15px; font-style: unset; font-family: Arial, Helvetica, sans-serif;
 }
+html{
+ background: local;
+}
+.CLICK-HERE {
+font-size: large;
+color: #ff0000;
+
+}
+.me {
+  color: rgb(0, 0, 0);
+}
+#line2{
+  color:hsl(83, 89%, 39%);
+}
+img {
+  float: right;
+  background-color: azure;
+}
+.proin {
+  text-align: left;
+  background-color: rgb(255, 255, 255);
+}
+@media screen and (min-width: 768px) and (max-width: 1920px) {
+  body {
+      background-color: azure;
+      
+  }
+}
+@media screen and (min-width: 1921px) {
+body {
+  background-color:#ff0606;
+}
+
+}
